@@ -1,0 +1,68 @@
+body {
+  position: relative;
+}
+
+.modal {
+  width: 35%;
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+  position: absolute;
+  z-index: 99999;
+  top: 20%;
+  left: 35%;
+  border: 1px solid gray;
+  display: none;
+  text-align: center;
+}
+
+.modalBox {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.modal img {
+  border-radius: 200px;
+  width: 70%;
+  min-width: 200px;
+  margin: 10% auto;
+  display: block;
+}
+
+.modal p {
+  padding: 10px;
+}
+
+.left, .right {
+  align-items: center;
+  font-size: 25px;
+}
+
+.left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.line {
+  height: 2px;
+  margin: 10% auto;
+  padding: 0px 20px;
+  width: 50%;
+  background-color: gray;
+}
+
+.closeBtn {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  font-size: 40px;
+}
+
+/*# sourceMappingURL=modal.css.map */
